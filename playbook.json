@@ -7,7 +7,6 @@
                 {
                     "id": 2,
                     "title": "This is a new scene name",
-"not-allowed": "invalid property",
                     "steps": [
                         {
                             "title": "step-01",
