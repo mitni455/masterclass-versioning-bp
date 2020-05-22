@@ -1,0 +1,136 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "TODO - Create a category name",
+            "scenes": [
+                {
+                    "id": 2,
+                    "title": "TODO - Create a scene name",
+                    "steps": [
+                        {
+                            "title": "step-01",
+                            "gitData": {},
+                            "windowSettings": {
+                                "description": {
+                                    "isClosed": false,
+                                    "top": "0px",
+                                    "left": "0px",
+                                    "width": "45%",
+                                    "height": "100%",
+                                    "transitions": []
+                                },
+                                "code": {
+                                    "isClosed": false,
+                                    "top": "0px",
+                                    "left": "50%",
+                                    "width": "45%",
+                                    "height": "80%",
+                                    "transitions": []
+                                },
+                                "terminal": {
+                                    "isClosed": true,
+                                    "bottom": "0px",
+                                    "left": "50%",
+                                    "width": "45%",
+                                    "height": "20%",
+                                    "transitions": []
+                                }
+                            },
+                            "timeline": [
+                                {
+                                    "id": 1,
+                                    "panel": "description",
+                                    "start": 0,
+                                    "duration": 100,
+                                    "description": [
+                                        {
+                                            "tag": "p",
+                                            "txt": "Initialising the masterclass-versioning project!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "step-02",
+                            "gitData": {},
+                            "windowSettings": {
+                                "description": {
+                                    "isClosed": false,
+                                    "top": "0px",
+                                    "left": "0px",
+                                    "width": "45%",
+                                    "height": "100%",
+                                    "transitions": []
+                                },
+                                "code": {
+                                    "isClosed": false,
+                                    "top": "0px",
+                                    "left": "50%",
+                                    "width": "45%",
+                                    "height": "80%",
+                                    "transitions": []
+                                },
+                                "terminal": {
+                                    "isClosed": true,
+                                    "bottom": "0px",
+                                    "left": "50%",
+                                    "width": "45%",
+                                    "height": "20%",
+                                    "transitions": []
+                                }
+                            },
+                            "timeline": [
+                                {
+                                    "id": 1,
+                                    "panel": "code",
+                                    "start": 0,
+                                    "duration": 100,
+                                    "code": {
+                                        "template": "step-02/code/package.hbs",
+                                        "partial_sections": [],
+                                        "output": "package.json"
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "panel": "code",
+                                    "start": 0,
+                                    "duration": 100,
+                                    "code": {
+                                        "template": "step-02/code/Animal.schema.hbs",
+                                        "partial_sections": [],
+                                        "output": "Animal.schema.ts"
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "panel": "terminal",
+                                    "start": 0,
+                                    "duration": 100,
+                                    "terminal": {
+                                        "commands": [
+                                            "git checkout -b feature/animal"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "panel": "terminal",
+                                    "start": 0,
+                                    "duration": 100,
+                                    "terminal": {
+                                        "commands": [
+                                            "The animal schema takes in the name of an animal"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
