@@ -6,7 +6,8 @@
             "scenes": [
                 {
                     "id": 2,
-                    "title": "TODO - Create a scene name",
+                    "title": "This is a new scene name",
+"not-allowed": "invalid property",
                     "steps": [
                         {
                             "title": "step-01",
